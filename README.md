@@ -1,0 +1,2 @@
+# LRUCache
+A “Less recently used” Cache is a limited size list of elements, sorted by most recently used, and indexed by key. Elements in the cache has a key and a value. An element can be added to the list, (on the top of the list) and an element can be queried based on its key. If the element is found, the element is on the top of the list. When an element is added to the list, it may be that the list’s maximum capacity has been reached, in which case the last element of the list needs to be removed before a new element can be added to the top.
